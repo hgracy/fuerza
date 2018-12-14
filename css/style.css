@@ -1,0 +1,305 @@
+@font-face{
+	font-family: Daniesha;
+	src: url(../font/Daniesha.ttf);
+}
+@font-face{
+	font-family: Moon Flower;
+	src: url(../font/MoonFlower.ttf);
+}
+
+body{
+	font-family: Moon Flower;
+}
+.text{
+	font-family: Moon Flower;
+}
+
+h1{
+	font-family: Daniesha;
+	font-size: 100px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #a5a5a5;
+}
+
+.line{
+	padding: 3px;
+	background: black;
+}
+
+.head-line{
+	padding: 1px;
+	background: #c8d4d0
+}
+
+/* BUTTON SECTION */
+
+.button {
+	text-align: center;
+	background: #fff;
+	padding: 10px 25px;
+	color: black;
+	font-family: century gothic;
+
+}
+
+.button:hover {
+	color: #618277;
+}	
+
+/* MAIN MENUN SECTION */
+
+#main-menu {
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr)
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+
+.icon{
+	color: black;
+}
+
+.icon:hover{
+	color: #a5a5a5;
+}
+
+.showcase {
+	padding: 320px;
+	background-image: url(../images/final-showcase.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}	
+
+.clothes {
+	padding: 50px;
+	margin-bottom: 10px;
+	background-image: url(../images/clothes.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}	
+
+.selection-one{
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	display: grid;
+	grid-gap: 15px;
+	margin: 0 110px 0 110px;
+}
+
+#selection{
+	font-size: 50px;
+}
+
+.one{
+	grid-row: 1/3;
+}
+
+.two{
+	grid-column: 2/3;
+	grid-row: 1/4
+}
+
+.three{
+	grid-column: 3/4;
+	grid-row: 1/3
+}
+
+.four{
+	grid-column: 1/2;
+	grid-row: 3/5;
+}
+
+.five{
+	grid-column: 2/4;
+	grid-row: 3/6;
+}
+
+.six{
+	grid-column: 1/2;
+	grid-row: 5/8;
+}
+
+.seven{
+	grid-column: 2/3;
+	grid-row: 6/8;
+}
+
+.eight{
+	grid-column: 3/4;
+	grid-row: 6/8;
+}
+
+.shoes {
+	padding: 50px;
+	margin-bottom: 10px;
+	background-image: url(../images/select-shoes.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}	
+
+.selection-two{
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	display: grid;
+	grid-gap: 15px;
+	margin: 0 110px 0 110px;
+
+}
+
+.isa{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.dalawa{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.tatlo{
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.apat{
+	grid-column: 1/2;
+	grid-row: 2/3
+}
+
+.lima{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.anim{
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+.pito{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.walo{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+.siyam{
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+
+.sampo{
+	grid-column: 4/10;
+	grid-row: 1/4;
+	text-align: center;
+}
+
+h2{
+	font-family: Moon Flower;
+	font-size: 50px;
+	color: #febacf;
+}
+
+.accessories {
+	padding: 50px;
+	margin-bottom: 10px;
+	background-image: url(../images/accessories.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no repeat;
+}	
+
+h3{
+	font-family: Daniesha;
+	text-align: center;
+	font-size: 50px;
+}
+
+.bag{
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	grid-gap: 15px;
+	margin: 0 110px 0 110px;
+}
+
+.glass{
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	display: grid;
+	grid-gap: 15px;
+}
+
+.ear{
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	display: grid;
+	grid-gap: 20px;
+	text-align: center;
+	margin: 0 120px 0 120px;
+}
+
+.eighth{
+	grid-column: 1/2;
+	grid-row: 1/3;
+}
+
+.ninth{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.tenth{
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.eleven{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.twelve{
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+
+p{
+	font-size: 40px;
+	font-family: Moon Flower;
+	text-align: center;
+}
+
+#foot{
+	text-align: center;
+	font-family: century gothic;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
